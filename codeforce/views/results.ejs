@@ -1,0 +1,7 @@
+<h1>Results Page!!!</h1>
+<button><a href="/">Search Again</a></button>
+<%data["result"].forEach(function(question){%>
+<li><%=question["problem"]["name"]%>==> <%=question["verdict"]%></li>
+<!-- question["problem"]["name"] -->
+<!-- ==> <%=question["verdict"]%> -->
+<%})%>
